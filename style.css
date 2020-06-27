@@ -1,0 +1,102 @@
+body{
+    background: url(bgimage.jpg) no-repeat no-repeat center;
+    background-size: cover;
+}
+.main{
+    width: 22%;
+    height: 505px;
+    margin: 13% auto;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 2px 2px 15px white , -2px -2px 15px gray;
+}
+
+.head , .btns-head-div{
+    text-align: center;
+}
+
+.head h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head input{
+    width: 75%;
+    height: 50px;
+    margin: 0px 0px 15px 0px;
+    font-size: 25px;
+    color: black;
+    border-color: black;
+    border-radius: 50px;
+    border: none;
+    text-align: right;
+}
+
+.btn-div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wide-btn{
+    width: 36%;
+    height: 60px;
+    margin: 5px 2px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+.first-two{
+    width: 17%;
+    height: 61px;
+    margin: 5px 2px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn button{
+    width: 17%;
+    height: 61px;
+    margin: 5px 2px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+.last-btn{
+    width: 17%;
+    height: 61px;
+    margin: 5px 2px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-div button:focus , .head input{
+    outline: 0px;
+}
+
+.yellow-btn{
+    color: black;
+    background-color: rgb(247, 171, 30);
+    box-shadow: 1px 1px 5px  orange;
+}
+
+.btn-colour{
+    color: #ffffff;
+    background-color: black;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.btn-colour:hover{
+    box-shadow: -1px -1px 5px gray;
+}
+
+.yellow-btn:hover{
+    box-shadow: -1px -1px 5px  orange;
+}

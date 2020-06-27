@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shahzaib's Calculator</title>
+</head>
+<body>
+    <div class="main">
+    <div class="head input-div">
+        <h2>CALCULATOR</h2>
+        <input id="result" type="text">
+    </div>
+    <div class="btns-head-div">
+    <div class="btn-div">
+        <button class="wide-btn btn-colour" onclick="clearGivenNumber()">C</button>
+        <button class="first-two btn-colour" onclick="backSpace()">CE</button>
+        <button class="first-two yellow-btn" onclick="givenNumber('/')">/</button>
+    </div>
+    <div class="btn btn-div">
+        <button class="btn-colour" onclick="givenNumber('7')">7</button>
+        <button class="btn-colour" onclick="givenNumber('8')">8</button>
+        <button class="btn-colour" onclick="givenNumber('9')">9</button>
+        <button class="yellow-btn" onclick="givenNumber('*')">x</button>
+    </div>
+    <div class="btn btn-div">
+        <button class="btn-colour" onclick="givenNumber('4')">4</button>
+        <button class="btn-colour" onclick="givenNumber('5')">5</button>
+        <button class="btn-colour" onclick="givenNumber('6')">6</button>
+        <button class="yellow-btn" onclick="givenNumber('-')">-</button>
+    </div>
+    <div class="btn btn-div">
+        <button class="btn-colour" onclick="givenNumber('1')">1</button>
+        <button class="btn-colour" onclick="givenNumber('2')">2</button>
+        <button class="btn-colour" onclick="givenNumber('3')">3</button>
+        <button class="yellow-btn" onclick="givenNumber('+')">+</button>
+       
+    </div>
+    <div class="btn-div">
+        <button class="wide-btn btn-colour" onclick="givenNumber('0')">0</button>
+        <button class="last-btn btn-colour" onclick="givenNumber('.')">.</button>
+        <button class="last-btn yellow-btn" onclick="result()">=</button>
+    </div>
+</div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
